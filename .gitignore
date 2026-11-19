@@ -1,0 +1,5 @@
+/utils/kmesg
+/utils/notes_cli
+/utils/notes_cli_termux
+/utils/sysinfo
+/utils/*.o
