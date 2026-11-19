@@ -21,3 +21,9 @@ build:
 	$(Q)$(LD) utils/sysinfo.o -o utils/sysinfo
 	$(Q)echo "Finished building. Binaries on utils/"
 
+clean:
+	$(Q)rm utils/kmesg
+	$(Q)rm utils/notes_cli
+	$(Q)rm utils/notes_cli_termux
+	$(Q)rm utils/sysinfo
+	$(Q)rm utils/*.o
